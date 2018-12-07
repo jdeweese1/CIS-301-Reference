@@ -280,6 +280,7 @@ p ∧ q → r ⊢ p → q → r
   14. (p V q) ^ r         Ve 1 2 8
 }
 ```
+	
 ```Java
 (p V q) ^ (p V r) |- p V (q ^ r)
 // CIS 301
@@ -344,6 +345,7 @@ p ∧ q → r ⊢ p → q → r
   17. p V (q ^ r)              Ve 2 4 7
 }
 ```
+
 ## and ##
 <a name="and">
 ```Java
